@@ -1,0 +1,188 @@
+.bodyimage{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.bodyimage img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bodytext{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    text-align: center;
+    border: 0;
+    padding: 20px;
+}
+
+.bodytext h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.bodytext p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+span{
+    color: #206425;
+}
+
+.services-container img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+.services-container{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 0;
+    padding: 20px;
+}
+
+
+#services h2{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about{
+    background: #e4fee6;
+}
+
+#about h2{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+#contact p{
+    font-weight: bold;
+}
+
+.Welcome{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 0;
+    padding: 20px;
+}
+
+#contact h2{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+#contact p{
+    font-weight: bold;
+}
+
+.address {
+    display: flex;
+    gap: 10px;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #66db68, #e4fee6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@media (max-width: 750px){
+
+    .bodyimage{
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .bodyimage img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .bodytext{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .bodytext h2{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        border-top: 10%;
+    }
+
+    .bodytext p{
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    span{
+        color: #07d614;
+    }
+
+    .services-container{
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    .Welcome{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+}
